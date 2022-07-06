@@ -20,7 +20,7 @@ function CartInfo(props) {
         }
       </ul>
 
-      <p>2.Tổng tiền là : {total} VND</p>
+      <p>3.Tổng tiền là : {total} VND</p>
     </div>
   );
 }
