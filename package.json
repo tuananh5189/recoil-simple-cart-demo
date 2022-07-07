@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "sh deploy-surge.sh",
-    "deploy-ok": "serve -s build"
+    "deploy-ok": "serve -s build",
+    "start:prod": "node dist/app.js"
   },
   "eslintConfig": {
     "extends": "react-app"
