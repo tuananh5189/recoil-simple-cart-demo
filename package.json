@@ -9,14 +9,16 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "recoil": "0.0.9"
+    "recoil": "0.0.9",
+    "serve": "^13.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "sh deploy-surge.sh"
+    "deploy": "sh deploy-surge.sh",
+    "deploy-ok": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
