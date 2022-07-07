@@ -61,11 +61,11 @@ module.exports = {
       // },
       {
         name: "click4_docs",
-        script: "npm",
-        args: "run serve -- -p 3006",
+        script: "npx",
+        args: "serve -s build -p 3002",
         watch: false,
         instance: 1,
         exec_mode: "cluster",
-      },
+      }
     ],
   };
