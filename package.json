@@ -21,7 +21,8 @@
     "deploy": "sh deploy-surge.sh",
     "deploy-ok": "serve -s build",
     "start:prod": "node dist/app.js",
-    "start:pm2": "pm2 serve build 3001 --spa"
+    "start:pm2": "pm2 serve build 3001 --spa",
+    "start:pm21": "pm2 serve build/ 3002 --name 'react-build' --spa"
   },
   "eslintConfig": {
     "extends": "react-app"
